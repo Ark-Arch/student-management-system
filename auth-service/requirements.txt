@@ -1,7 +1,7 @@
 fastapi
 unicorn
 python-jose[cryptography]
-passlb[bycrypt]
+passlib[bycrypt]
 sqlalchemy
 psycopg2-binary
 python-dotenv
