@@ -2,6 +2,7 @@
 # helps load all my api routes from a separate file/module
 
 from fastapi import FastAPI
+from app.core.config import settings
 
 # import module: that contains my endpoint definitions.
 from app.api.v1 import routes 
